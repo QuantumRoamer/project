@@ -1,0 +1,12 @@
+db_username         = "admin"
+db_password         = "your_secure_password"
+cidr_block          = "10.0.0.0/16"
+vpc_name            = "wordpress-vpc"
+alb_name            = "wordpress-alb"
+db_instance_name    = "wordpress-db"
+db_name             = "wordpress"
+ecs_service_name    = "wordpress-service"
+ecs_container_name  = "wordpress-container"
+ecs_task_family     = "wordpress-task"
+ecs_container_image = "wordpress:latest"
+local_user_ip       = ["162.199.164.134/32"]
