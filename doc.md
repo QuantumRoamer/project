@@ -1,5 +1,3 @@
-Here’s an updated README that includes the RDS, Security Groups, and ALB modules along with their descriptions and usage examples. This will give a comprehensive overview of the entire Terraform setup.
-
 ```markdown
 # Terraform AWS VPC and WordPress Setup
 
@@ -16,11 +14,8 @@ This repository contains Terraform configurations for setting up an AWS infrastr
   - [RDS Module](#rds-module)
   - [ALB Module](#alb-module)
   - [Security Groups Module](#security-groups-module)
-- [Variables](#variables)
-- [Outputs](#outputs)
 - [Usage](#usage)
 - [Cleanup](#cleanup)
-- [Contributing](#contributing)
 
 ## Prerequisites
 
@@ -45,7 +40,7 @@ Before you begin, ensure you have met the following requirements:
     terraform init
     ```
 
-3. Update `terraform.tfvars` with your desired values. This file contains the variables needed for your infrastructure. Make sure to specify the VPC CIDR block and any other required values.
+3. Update `terraform.tfvars` with your desired values. This file contains the variables needed for your infrastructure.
 
 4. Review the planned changes:
     ```bash
@@ -105,10 +100,7 @@ The project is organized into the following modules:
 
 ## Usage
 
-To access your WordPress application after deployment:
-
-1. Get the public IP address or DNS name of your ECS service.
-2. Open a web browser and navigate to `http://<your-public-ip-or-dns>`.
+To access your WordPress application after deployment, get the public IP address or DNS name of your ECS service, and open a web browser to navigate to `http://<your-public-ip-or-dns>`.
 
 ## Cleanup
 
